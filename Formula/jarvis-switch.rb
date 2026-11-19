@@ -7,7 +7,9 @@ class JarvisSwitch < Formula
   head "https://github.com/mertegemencaliskan/jarvis-switch.git", branch: "main"
 
   depends_on :macos
-  depends_on macos: :ventura
+  on_macos do
+    depends_on macos: :ventura
+  end
 
   def install
     system "scripts/build.sh", buildpath/"out"
