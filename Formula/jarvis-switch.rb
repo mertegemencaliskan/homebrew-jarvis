@@ -1,8 +1,8 @@
 class JarvisSwitch < Formula
   desc "Menu-bar status, model details and offload switch for a local OpenClaw assistant"
   homepage "https://github.com/mertegemencaliskan/jarvis-switch"
-  url "https://github.com/mertegemencaliskan/jarvis-switch/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "ef6033f68644cc8808307ab9c25b3c8cf69967518621151d73d7ee66cd5833be"
+  url "https://github.com/mertegemencaliskan/jarvis-switch/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "1d4e6d333358d32dd0a860302b2d43c902c2af01cac5cc722d44328f09b8e127"
   license "MIT"
   head "https://github.com/mertegemencaliskan/jarvis-switch.git", branch: "main"
 
